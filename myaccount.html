@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sportprize</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+<header>
+    <div class="top-header">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 col-5">
+            <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>    
+            </div>
+            <div class="col-md-6 col-7 text-end">
+            <div class="login-signup">
+<a href="register.html" class="mybtn1">Register</a>
+<a href="login.html" class="mybtn1">Login</a>
+            </div>    
+            </div>
+        </div>
+      
+    </div>
+    </div>
+    <div class="bottom-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-9 col-5">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <div class="container-fluid">
+                         
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="bet.html">Bet</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="ranking.html">Ranking</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="rules.html">Rules</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="betting-websites.html">Betting Websites</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="refer.html">Refer a friend</a>
+                              </li>
+    
+                              <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="news.html">News</a>
+                              </li>
+                             
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+                </div>
+                <div class="col-md-3 col-7 text-end">
+                    <ul class="list-inline list-inline-sm">
+                        <li><a class="icon icon-xs fab fa-facebook-f" href="#"></a></li>
+                        <li><a class="icon icon-xs fab fa-twitter" href="#"></a></li>
+                        <li><a class="icon icon-xs fab fa-google-plus" href="#"></a></li>
+                        <li><a class="icon icon-xs fab fa-instagram" href="#"></a></li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div class="sub-banner-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12">
+            <div class="breadcrumb-content">
+              <h2>My Account</h2>
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+
+                <li>My Account</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="dashboard-content">
+      <div class="overlay">
+        <div class="dashboard-heading">
+          <div class="container">
+            <div class="row justify-content-lg-end justify-content-between">
+              <div class="col-xl-9 col-lg-12">
+                <ul class="nav" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link active"
+                      id="dashboard-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#dashboard"
+                      type="button"
+                      role="tab"
+                      aria-controls="dashboard"
+                      aria-selected="true"
+                    >
+                      dashboard
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="my-bets-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#my-bets"
+                      type="button"
+                      role="tab"
+                      aria-controls="my-bets"
+                      aria-selected="false"
+                    >
+                      my bets
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="referral-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#referral"
+                      type="button"
+                      role="tab"
+                      aria-controls="referral"
+                      aria-selected="false"
+                    >
+                      referral
+                    </button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button
+                      class="nav-link"
+                      id="setting-tab"
+                      data-bs-toggle="tab"
+                      data-bs-target="#setting"
+                      type="button"
+                      role="tab"
+                      aria-controls="setting"
+                      aria-selected="false"
+                    >
+                      settings
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="dashboard-sidebar">
+                <div class="single-item">
+                  <img src="images/profile-img-1.png" alt="images" />
+                  <h5>Philip Dunn</h5>
+                  <p>ID: 32315145</p>
+                </div>
+                <div class="balance ty">
+                  <div class="single-item">
+                    <img src="images/e1.png" alt="images" />
+                    <h5>$100.00</h5>
+                    <p>Winning Amount</p>
+                  </div>
+                </div>
+                <div class="single-item ty">
+                  <img src="images/e2.png" alt="images" />
+                  <h5>Need Help?</h5>
+                  <p class="mdr">
+                    Have questions? Our experts are here to help!.
+                  </p>
+                  <span class="btn-border">
+                    <a href="" class="mybtn1">Contact us</a>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-9 col-lg-8">
+              <div class="tab-content">
+                <div
+                  class="tab-pane fade show active"
+                  id="dashboard"
+                  role="tabpanel"
+                  aria-labelledby="dashboard-tab"
+                >
+                  <div class="row">
+                    <div class="col-xl-4 col-lg-6">
+                      <div class="single-info">
+                        <img src="images/a1.png" alt="icon" />
+                        <div class="text-area">
+                          <h4>50</h4>
+                          <p class="mdr">Total Match</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6">
+                      <div class="single-info">
+                        <img src="images/a2.png" alt="icon" />
+                        <div class="text-area">
+                          <h4>5<sup>th</sup></h4>
+                          <p class="mdr">Rank</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6">
+                      <div class="single-info">
+                        <img src="images/a3.png" alt="icon" />
+                        <div class="text-area">
+                          <h4>220</h4>
+                          <p class="mdr">Points</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <h5 class="title">Recent Activity</h5>
+                      <div class="table-responsive">
+                        <table class="table">
+                          <thead>
+                            <tr>
+                              <th scope="col">Date/Time</th>
+                              <th scope="col">Type</th>
+                              <th scope="col">Match</th>
+                              <th scope="col">Team</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td scope="row">2023-07-07 16:33:53</td>
+                              <td>Football</td>
+                              <td>Fifa Club World Cup</td>
+                              <td>Barcelona VS Real Madrid</td>
+                            </tr>
+                            <tr>
+                              <td scope="row">2023-07-07 16:33:53</td>
+                              <td>Tennis</td>
+                              <td>Fifa Club World Cup</td>
+                              <td>Barcelona VS Real Madrid</td>
+                            </tr>
+                            <tr>
+                              <td scope="row">2023-07-07 16:33:53</td>
+                              <td>Cricket</td>
+                              <td>Fifa Club World Cup</td>
+                              <td>Barcelona VS Real Madrid</td>
+                            </tr>
+                            <tr>
+                              <td scope="row">2023-07-07 16:33:53</td>
+                              <td>Tennis</td>
+                              <td>Fifa Club World Cup</td>
+                              <td>Barcelona VS Real Madrid</td>
+                            </tr>
+                            <tr>
+                              <td scope="row">2023-07-07 16:33:53</td>
+                              <td>Football</td>
+                              <td>Fifa Club World Cup</td>
+                              <td>Barcelona VS Real Madrid</td>
+                            </tr>
+                            <tr>
+                              <td scope="row">2023-07-07 16:33:53</td>
+                              <td>Cricket</td>
+                              <td>Fifa Club World Cup</td>
+                              <td>Barcelona VS Real Madrid</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="my-bets"
+                  role="tabpanel"
+                  aria-labelledby="my-bets-tab"
+                >
+                  <div class="bets-tab">
+                    <div class="d-flex">
+                      <ul class="nav" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button
+                            class="cmn-btn active"
+                            id="open-playing-tab"
+                            data-bs-toggle="tab"
+                            data-bs-target="#open-playing"
+                            type="button"
+                            role="tab"
+                            aria-controls="open-playing"
+                            aria-selected="true"
+                          >
+                            Open Matches
+                          </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button
+                            class="cmn-btn"
+                            id="finished-tab"
+                            data-bs-toggle="tab"
+                            data-bs-target="#finished"
+                            type="button"
+                            role="tab"
+                            aria-controls="finished"
+                            aria-selected="false"
+                          >
+                            Finished Matches
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="bet-this-game">
+                      <div class="tab-content">
+                        <div
+                          class="tab-pane fade show active"
+                          id="open-playing"
+                          role="tabpanel"
+                          aria-labelledby="open-playing-tab"
+                        >
+                          <div class="account-team">
+                            <div class="row gx-lg-4">
+                              <div class="col-xl-6 col-lg-6">
+                                <div class="single-match">
+                                  <div class="part-head">
+                                    <h5 class="match-title">
+                                      <span
+                                        ><i class="fa-solid fa-futbol"></i
+                                      ></span>
+                                      FIFA Club World Cup 2023
+                                    </h5>
+                                  </div>
+                                  <div class="part-team">
+                                    <div class="single-team">
+                                      <div class="logo">
+                                        <img src="images/team-1.png" alt="" />
+                                      </div>
+                                      <span class="team-name">BARCELONA</span>
+                                      <span class="team-goal">5</span>
+                                    </div>
+                                    <div class="match-details">
+                                      <div class="match-time">
+                                        <span class="date"
+                                          >Fri 09 Oct 2023</span
+                                        >
+                                        <span class="time">09:00 am</span>
+                                      </div>
+                                      <span class="versase">vs</span>
+                                      <div class="buttons">
+                                        <div class="winningteam-t">
+                                          Predicted Winner
+                                        </div>
+                                        <div class="winningteam">
+                                          Real Madrid
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="single-team">
+                                      <div class="logo">
+                                        <img src="images/team-2.png" alt="" />
+                                      </div>
+                                      <span class="team-name">REAL MADRID</span>
+                                      <span class="team-goal">7</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-xl-6 col-lg-6">
+                                <div class="single-match">
+                                  <div class="part-head">
+                                    <h5 class="match-title">
+                                      <span
+                                        ><i class="fa-solid fa-futbol"></i
+                                      ></span>
+                                      FIFA Club World Cup 2023
+                                    </h5>
+                                  </div>
+                                  <div class="part-team">
+                                    <div class="single-team">
+                                      <div class="logo">
+                                        <img src="images/team-1.png" alt="" />
+                                      </div>
+                                      <span class="team-name">BARCELONA</span>
+                                      <span class="team-goal">5</span>
+                                    </div>
+                                    <div class="match-details">
+                                      <div class="match-time">
+                                        <span class="date"
+                                          >Fri 09 Oct 2023</span
+                                        >
+                                        <span class="time">09:00 am</span>
+                                      </div>
+                                      <span class="versase">vs</span>
+                                      <div class="buttons">
+                                        <div class="winningteam-t">
+                                          Predicted Winner
+                                        </div>
+                                        <div class="winningteam">
+                                          Real Madrid
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="single-team">
+                                      <div class="logo">
+                                        <img src="images/team-2.png" alt="" />
+                                      </div>
+                                      <span class="team-name">REAL MADRID</span>
+                                      <span class="team-goal">7</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-xl-6 col-lg-6">
+                                <div class="single-match">
+                                  <div class="part-head">
+                                    <h5 class="match-title">
+                                      <span
+                                        ><i class="fa-solid fa-futbol"></i
+                                      ></span>
+                                      FIFA Club World Cup 2023
+                                    </h5>
+                                  </div>
+                                  <div class="part-team">
+                                    <div class="single-team">
+                                      <div class="logo">
+                                        <img src="images/team-1.png" alt="" />
+                                      </div>
+                                      <span class="team-name">BARCELONA</span>
+                                      <span class="team-goal">5</span>
+                                    </div>
+                                    <div class="match-details">
+                                      <div class="match-time">
+                                        <span class="date"
+                                          >Fri 09 Oct 2023</span
+                                        >
+                                        <span class="time">09:00 am</span>
+                                      </div>
+                                      <span class="versase">vs</span>
+                                      <div class="buttons">
+                                        <div class="winningteam-t">
+                                          Predicted Winner
+                                        </div>
+                                        <div class="winningteam">
+                                          Real Madrid
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="single-team">
+                                      <div class="logo">
+                                        <img src="images/team-2.png" alt="" />
+                                      </div>
+                                      <span class="team-name">REAL MADRID</span>
+                                      <span class="team-goal">7</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-xl-6 col-lg-6">
+                                <div class="single-match">
+                                  <div class="part-head">
+                                    <h5 class="match-title">
+                                      <span
+                                        ><i class="fa-solid fa-futbol"></i
+                                      ></span>
+                                      FIFA Club World Cup 2023
+                                    </h5>
+                                  </div>
+                                  <div class="part-team">
+                                    <div class="single-team">
+                                      <div class="logo">
+                                        <img src="images/team-1.png" alt="" />
+                                      </div>
+                                      <span class="team-name">BARCELONA</span>
+                                      <span class="team-goal">5</span>
+                                    </div>
+                                    <div class="match-details">
+                                      <div class="match-time">
+                                        <span class="date"
+                                          >Fri 09 Oct 2023</span
+                                        >
+                                        <span class="time">09:00 am</span>
+                                      </div>
+                                      <span class="versase">vs</span>
+                                      <div class="buttons">
+                                        <div class="winningteam-t">
+                                          Predicted Winner
+                                        </div>
+                                        <div class="winningteam">
+                                          Real Madrid
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="single-team">
+                                      <div class="logo">
+                                        <img src="images/team-2.png" alt="" />
+                                      </div>
+                                      <span class="team-name">REAL MADRID</span>
+                                      <span class="team-goal">7</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="tab-pane fade"
+                          id="finished"
+                          role="tabpanel"
+                          aria-labelledby="finished-tab"
+                        >
+                          <div class="account-team">
+                            <div class="row gx-lg-4">
+                              <div class="col-xl-6 col-lg-6">
+                                <div class="single-match">
+                                  <div class="part-head">
+                                    <h5 class="match-title">
+                                      <span
+                                        ><i class="fa-solid fa-futbol"></i
+                                      ></span>
+                                      FIFA Club World Cup 2023
+                                    </h5>
+                                  </div>
+                                  <div class="part-team">
+                                    <div class="single-team">
+                                      <div class="logo">
+                                        <img src="images/team-1.png" alt="" />
+                                      </div>
+                                      <span class="team-name">BARCELONA</span>
+                                      <span class="team-goal">5</span>
+                                    </div>
+                                    <div class="match-details">
+                                      <div class="match-time">
+                                        <span class="date"
+                                          >Fri 09 Oct 2023</span
+                                        >
+                                        <span class="time">09:00 am</span>
+                                      </div>
+                                      <span class="versase">vs</span>
+                                      <div class="buttons">
+                                        <div class="winningteam-t">
+                                          Predicted Winner
+                                        </div>
+                                        <div class="winningteam">
+                                          Real Madrid
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="single-team">
+                                      <div class="logo">
+                                        <img src="images/team-2.png" alt="" />
+                                      </div>
+                                      <span class="team-name">REAL MADRID</span>
+                                      <span class="team-goal">7</span>
+                                    </div>
+                                  </div>
+                                  <div class="part-team org-winner">
+                                    <div class="single-team">
+                                      
+                                      <span class="team-name">BARCELONA</span>
+                                      <span class="team-goal">4</span>
+                                    </div>
+                                    <div class="match-details">
+                                      
+                                      
+                                      <div class="buttons">
+                                        <div class="winningteam-t">
+                                          Real Winner
+                                        </div>
+                                        <div class="winningteam">
+                                          Real Madrid
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="single-team">
+                                      
+                                      <span class="team-name">REAL MADRID</span>
+                                      <span class="team-goal">8</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-xl-6 col-lg-6">
+                                <div class="single-match">
+                                  <div class="part-head">
+                                    <h5 class="match-title">
+                                      <span
+                                        ><i class="fa-solid fa-futbol"></i
+                                      ></span>
+                                      FIFA Club World Cup 2023
+                                    </h5>
+                                  </div>
+                                  <div class="part-team">
+                                    <div class="single-team">
+                                      <div class="logo">
+                                        <img src="images/team-1.png" alt="" />
+                                      </div>
+                                      <span class="team-name">BARCELONA</span>
+                                      <span class="team-goal">5</span>
+                                    </div>
+                                    <div class="match-details">
+                                      <div class="match-time">
+                                        <span class="date"
+                                          >Fri 09 Oct 2023</span
+                                        >
+                                        <span class="time">09:00 am</span>
+                                      </div>
+                                      <span class="versase">vs</span>
+                                      <div class="buttons">
+                                        <div class="winningteam-t">
+                                          Predicted Winner
+                                        </div>
+                                        <div class="winningteam">
+                                          Real Madrid
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div class="single-team">
+                                      <div class="logo">
+                                        <img src="images/team-2.png" alt="" />
+                                      </div>
+                                      <span class="team-name">REAL MADRID</span>
+                                      <span class="team-goal">7</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="referral"
+                  role="tabpanel"
+                  aria-labelledby="referral-tab"
+                >
+                  <div class="referral-tab">
+                    <div class="row">
+                      <div class="col-12">
+                        <h5>Referral Program</h5>
+                        <p>
+                          Get one point reward on every referral upto 5
+                          referrals!
+                        </p>
+                        <div class="referral-bar">
+                          <p>My Referral Link</p>
+                          <div class="input-area">
+                            <input
+                              type="text"
+                              value="bc1quxahsy9s7h99q5q4xykmmmh"
+                            />
+                            <img src="images/copy-icon.png" alt="icon" />
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-xl-6">
+                            <div class="single-info">
+                              <img src="images/r2.png" alt="icon" />
+                              <div class="text-area">
+                                <h4>3 Points</h4>
+                                <p class="mdr">Earned Referral</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-xl-6">
+                            <div class="single-info">
+                              <img src="images/r1.png" alt="icon" />
+                              <div class="text-area">
+                                <h4>1 Point</h4>
+                                <p class="mdr">Last Month</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="table-area">
+                          <div
+                            class="head-area d-flex justify-content-between align-items-center"
+                          >
+                            <h5>Referral History</h5>
+                          </div>
+                          <div class="table-responsive">
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th scope="col">Date</th>
+
+                                  <th scope="col">Username</th>
+                                  <th scope="col">Earned</th>
+                                  <th scope="col">E-mail</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td scope="row">16 APR</td>
+
+                                  <td>Maxine24</td>
+                                  <td>1 Point</td>
+                                  <td>Maxine24@gmail.com</td>
+                                </tr>
+                                <tr>
+                                  <td scope="row">16 APR</td>
+
+                                  <td>Maxine24</td>
+                                  <td>1 Point</td>
+                                  <td>Maxine24@gmail.com</td>
+                                </tr>
+
+                                <tr>
+                                  <td scope="row">16 APR</td>
+
+                                  <td>Maxine24</td>
+                                  <td>1 Point</td>
+                                  <td>Maxine24@gmail.com</td>
+                                </tr>
+                                <tr>
+                                  <td scope="row">16 APR</td>
+
+                                  <td>Maxine24</td>
+                                  <td>1 Point</td>
+                                  <td>Maxine24@gmail.com</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="setting"
+                  role="tabpanel"
+                  aria-labelledby="setting-tab"
+                >
+                  <div class="setting-tab">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="single-area">
+                          <h5>Settings</h5>
+                        </div>
+                        <div class="single-area">
+                          <div class="file-upload">
+                            <div class="img-area">
+                              <img src="images/user.png" alt="icon" />
+                            </div>
+                            <div class="right-area">
+                              <p class="title">Upload profile photo via:</p>
+                              <label class="file">
+                                <input type="file" />
+                                <span class="file-custom"></span>
+                              </label>
+                              <p class="mdr">
+                                Choose a photo for your account.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="single-area">
+                          <div class="icon-area">
+                            <i class="fa-solid fa-envelope"></i>
+                          </div>
+                          <p class="mdr">philip684@gmail.com</p>
+                        </div>
+                     
+                        <div class="setting-personal-details">
+                          <h5>Personal Details</h5>
+                          <form action="#">
+                            <div class="row">
+                              <div class="col-lg-6">
+                                <div class="single-input">
+                                  <label for="perFname">Full Name</label>
+                                  <input
+                                    type="text"
+                                    id="perFname"
+                                    placeholder="Enter First Name"
+                                    value="Philip Dunn"
+                                  />
+                                </div>
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="single-input">
+                                  <label for="birth">Date Of Birth</label>
+                                  <input
+                                    type="text"
+                                    id="birth"
+                                    placeholder="Enter Date Of Birth"
+                                    value="26-08-1992"
+                                  />
+                                </div>
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="single-input">
+                                  <label for="phone">Phone</label>
+                                  <input
+                                    type="text"
+                                    id="phone"
+                                    placeholder="Enter Phone Number"
+                                    value="9876543210"
+                                  />
+                                </div>
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="single-input">
+                                  <label for="country">Country</label>
+                                  <input
+                                    type="text"
+                                    id="country"
+                                    placeholder="Enter Country"
+                                    value="India"
+                                  />
+                                </div>
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="single-input">
+                                  <label for="country">Payment Method</label>
+                                  <select name="" id="">
+                                    <option value="">
+                                      Select payment method
+                                    </option>
+                                    <option value="">Paypal</option>
+                                    <option value="">Bank wire</option>
+                                    <option value="">Gift card</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="col-lg-12">
+                                <div class="single-input">
+                                  <a href="" class="mybtn1">Update </a>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="setting-personal-details">
+                          <h5>Change Password</h5>
+                          <form action="#">
+                            <div class="row">
+                              
+
+                              <div class="col-lg-4">
+                                <div class="single-input">
+                                  <label for="perFname">Current Password</label>
+                                  <input type="password" id="perFname" placeholder="Enter First Name" value="Philip Dunn">
+                                </div>
+                              </div>
+
+                              <div class="col-lg-4">
+                                <div class="single-input">
+                                  <label for="perFname">New Password</label>
+                                  <input type="password" id="perFname" placeholder="Enter First Name" value="Philip Dunn">
+                                </div>
+                              </div><div class="col-lg-4">
+                                <div class="single-input">
+                                  <label for="perFname">Confirm Password</label>
+                                  <input type="password" id="perFname" placeholder="Enter First Name" value="Philip Dunn">
+                                </div>
+                              </div>
+                              
+                              
+                              
+                              
+                              <div class="col-lg-12">
+                                <div class="single-input">
+                                  <a href="" class="mybtn1">Update </a>
+                                </div>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer" id="contact">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xl-4 col-lg-5 col-md-10">
+            <div class="about-widget">
+              <a class="logo" href="index.html">
+                <img src="images/logo.png" alt="" />
+              </a>
+              <div class="social">
+                <ul>
+                  <li>
+                    <a href="#" class="social-icon">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                      <i class="fab fa-pinterest-p"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="support">
+                <ul>
+                  <li>
+                    <span class="icon">
+                      <img src="images/email.png" alt="" />
+                    </span>
+                    <span class="text">
+                      <span class="title">Mail Us</span>
+                      <span class="descr">don't@reply.com</span>
+                    </span>
+                  </li>
+                  <li>
+                    <span class="icon">
+                      <img src="images/phone.png" alt="" />
+                    </span>
+                    <span class="text">
+                      <span class="title">For Enquiry</span>
+                      <span class="descr">+88 015 00 00 00</span>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-3">
+            <div class="useful-links">
+              <h3>All Sports</h3>
+              <ul>
+                <li>
+                  <a href="#">FOOTBALL</a>
+                </li>
+                <li>
+                  <a href="#">TENNIS</a>
+                </li>
+                <li>
+                  <a href="#">BASKETBALL</a>
+                </li>
+                <li>
+                  <a href="#">ICE HOCKEY</a>
+                </li>
+                <li>
+                  <a href="#">VOLLEYBALL</a>
+                </li>
+                <li>
+                  <a href="#">BADMINTON</a>
+                </li>
+                <li>
+                  <a href="#">BASEBALL</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-3">
+            <div class="useful-links">
+              <h3>Connect With Us</h3>
+              <ul>
+                <li>
+                  <a href="#">Bet</a>
+                </li>
+                <li>
+                  <a href="#">Ranking</a>
+                </li>
+                <li>
+                  <a href="#">Betting Websites</a>
+                </li>
+                <li>
+                  <a href="#">Refer a friend</a>
+                </li>
+
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+                <li>
+                  <a href="#">News</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-3">
+            <div class="useful-links">
+              <h3>Useful links</h3>
+              <ul>
+                <li>
+                  <a href="#">Privacy policy</a>
+                </li>
+                <li>
+                  <a href="#">Terms & conditions</a>
+                </li>
+                <li>
+                  <a href="#">Rules</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-footer">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xl-12 text-center">
+            <p class="copyright-text">
+              <a href="#">Sportprize</a> © 2023. All right reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

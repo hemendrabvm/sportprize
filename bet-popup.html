@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sportprize</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+ 
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="bet-modal-bg">
+        <div class="bet-modal open">
+          <div class="bet-header">
+            <span class="title">Predict a game</span>
+            <button type="button" class="btn-close cls-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="bet-body">
+            <div class="place-of-bet">
+              <span class="place-of-bet-title"> FIFA CLUB WORLD CUP </span>
+              <span class="altv-1">2023</span>
+            </div>
+            <div class="bet-descr">
+              <span class="team-name team-name-1st"> BARCELONA </span>
+              <span class="img-ic"><img src="images/vs-icon.png" alt="" /></span>
+              <span class="team-name team-name-2nd"> REAL MADRID </span>
+              <div class="team-score">FRI 09 OCT 2023 Prediction</div>
+            </div>
+  
+            <div class="bet-descr-mn">
+              <div class="bet-descrq">
+                <h2>Predict the score of both teams</h2>
+              </div>
+              <div class="ctrl-buttons">
+                <div class="inputpoints">
+                  <h3>BARCELONA</h3>
+                  <div class="butto-shadow">
+                    <input
+                      placeholder="Enter Score"
+                      type="number"
+                      name=""
+                      id=""
+                    />
+                  </div>
+                </div>
+                <span class="versase">vs</span>
+                <div class="inputpoints">
+                  <h3>REAL MADRID</h3>
+                  <div class="butto-shadow">
+                    <input
+                      placeholder="Enter Score"
+                      type="number"
+                      name=""
+                      id=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="bet-total">
+              <h3>Predicted Winner</h3>
+              <div class="prewin">
+                <img src="images/team-1.png" alt="" />
+                <h2>BARCELONA</h2>
+              </div>
+            </div>
+          </div>
+          <div class="bet-footer">
+            <a href="" class="mybtn1">Submit Prediction</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <header>
+      <div class="top-header">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 col-5">
+              <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="" /></a>
+              </div>
+            </div>
+            <div class="col-md-6 col-7 text-end">
+              <div class="login-signup">
+                <a href="register.html" class="mybtn1">Register</a>
+                <a href="login.html" class="mybtn1">Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bottom-header">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-9 col-5">
+              <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a
+                          class="nav-link active"
+                          aria-current="page"
+                          href="index.html"
+                          >Home</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="bet.html">Bet</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="ranking.html">Ranking</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="rules.html">Rules</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="betting-websites.html"
+                          >Betting Websites</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="refer.html">Refer a friend</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="news.html">News</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <div class="col-md-3 col-7 text-end">
+              <ul class="list-inline list-inline-sm">
+                <li><a class="icon icon-xs fab fa-facebook-f" href="#"></a></li>
+                <li><a class="icon icon-xs fab fa-twitter" href="#"></a></li>
+                <li>
+                  <a class="icon icon-xs fab fa-google-plus" href="#"></a>
+                </li>
+                <li><a class="icon icon-xs fab fa-instagram" href="#"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="sub-banner-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 col-lg-12">
+            <div class="breadcrumb-content">
+              <h2>BET</h2>
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+
+                <li>Bet</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="particial-sc bet-section">
+      <div class="container">
+        <div class="row gx-lg-4">
+          <!-- <div class="col-md-12">
+                <div class="blc-heading">
+                    <h2>Football <span class="sport-content-conter">[3]</span></h2>
+                </div>
+                </div> -->
+          <div class="col-md-12">
+            <div class="row">
+              <div class="mq-4">
+                <ul class="nav nav-tabs" id="myTab">
+                  <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-bs-toggle="tab"
+                      ><img src="images/all.png" /> All Sports</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#profile" class="nav-link" data-bs-toggle="tab"
+                      ><img src="images/football.png" /> Football</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#messages" class="nav-link" data-bs-toggle="tab"
+                      ><img src="images/tennis-ball.png" /> Tennis</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#messages" class="nav-link" data-bs-toggle="tab"
+                      ><img src="images/cricket-ball.png" /> Cricket</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#messages" class="nav-link" data-bs-toggle="tab"
+                      ><img src="images/basketball.png" /> Basketball</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#messages" class="nav-link" data-bs-toggle="tab"
+                      ><img src="images/volleyball.png" /> Volleyball</a
+                    >
+                  </li>
+                </ul>
+                <div class="tab-content">
+                  <div class="tab-pane fade show active" id="home">
+                    <div class="row gx-lg-4">
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                               
+<button type="button" class="place-bet bet-btn bet-btn-dark-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  PLACE BET
+</button>
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                                <a
+                                  href="#"
+                                  class="place-bet bet-btn bet-btn-dark-light"
+                                  >PLACE BET</a
+                                >
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                                <a
+                                  href="#"
+                                  class="place-bet bet-btn bet-btn-dark-light"
+                                  >PLACE BET</a
+                                >
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                                <a
+                                  href="#"
+                                  class="place-bet bet-btn bet-btn-dark-light"
+                                  >PLACE BET</a
+                                >
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                                <a
+                                  href="#"
+                                  class="place-bet bet-btn bet-btn-dark-light"
+                                  >PLACE BET</a
+                                >
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                                <a
+                                  href="#"
+                                  class="place-bet bet-btn bet-btn-dark-light"
+                                  >PLACE BET</a
+                                >
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                                <a
+                                  href="#"
+                                  class="place-bet bet-btn bet-btn-dark-light"
+                                  >PLACE BET</a
+                                >
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                                <a
+                                  href="#"
+                                  class="place-bet bet-btn bet-btn-dark-light"
+                                  >PLACE BET</a
+                                >
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="profile">
+                    <div class="row gx-lg-4">
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                                <a
+                                  href="#"
+                                  class="place-bet bet-btn bet-btn-dark-light"
+                                  >PLACE BET</a
+                                >
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                                <a
+                                  href="#"
+                                  class="place-bet bet-btn bet-btn-dark-light"
+                                  >PLACE BET</a
+                                >
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                                <a
+                                  href="#"
+                                  class="place-bet bet-btn bet-btn-dark-light"
+                                  >PLACE BET</a
+                                >
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                                <a
+                                  href="#"
+                                  class="place-bet bet-btn bet-btn-dark-light"
+                                  >PLACE BET</a
+                                >
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                                <a
+                                  href="#"
+                                  class="place-bet bet-btn bet-btn-dark-light"
+                                  >PLACE BET</a
+                                >
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                                <a
+                                  href="#"
+                                  class="place-bet bet-btn bet-btn-dark-light"
+                                  >PLACE BET</a
+                                >
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                                <a
+                                  href="#"
+                                  class="place-bet bet-btn bet-btn-dark-light"
+                                  >PLACE BET</a
+                                >
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-xl-6 col-lg-6">
+                        <div class="single-match">
+                          <div class="part-head">
+                            <h5 class="match-title">
+                              <span><i class="fa-solid fa-futbol"></i></span>
+                              FIFA Club World Cup 2023
+                            </h5>
+                          </div>
+                          <div class="part-team">
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-1.png" alt="" />
+                              </div>
+                              <span class="team-name">BARCELONA</span>
+                            </div>
+                            <div class="match-details">
+                              <div class="match-time">
+                                <span class="date">Fri 09 Oct 2023</span>
+                                <span class="time">09:00 am</span>
+                              </div>
+                              <span class="versase">vs</span>
+                              <div class="buttons">
+                                <a
+                                  href="#"
+                                  class="place-bet bet-btn bet-btn-dark-light"
+                                  >PLACE BET</a
+                                >
+                              </div>
+                            </div>
+                            <div class="single-team">
+                              <div class="logo">
+                                <img src="images/team-2.png" alt="" />
+                              </div>
+                              <span class="team-name">REAL MADRID</span>
+                            </div>
+                          </div>
+                          <span class="to-begin-time"> Ending in </span>
+                          <div
+                            class="part-timer timer"
+                            data-date="3 August 2023 9:56:00 GMT+01:00"
+                          >
+                            <div class="single-time">
+                              <span class="number day">0</span>
+                              <span class="title">Days</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number hour">0</span>
+                              <span class="title">Hours</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number minute">0</span>
+                              <span class="title">Minutes</span>
+                            </div>
+                            <div class="single-time">
+                              <span class="number second">0</span>
+                              <span class="title">Seconds</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="messages">
+                    <h4 class="mt-2">Demo tab content</h4>
+                    <p>
+                      Donec vel placerat quam, ut euismod risus. Sed a mi
+                      suscipit, elementum sem a, hendrerit velit. Donec at erat
+                      magna. Sed dignissim orci nec eleifend egestas. Donec eget
+                      mi consequat massa vestibulum laoreet. Mauris et ultrices
+                      nulla, malesuada volutpat ante. Fusce ut orci lorem. Donec
+                      molestie libero in tempus imperdiet. Cum sociis natoque
+                      penatibus et magnis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="footer" id="contact">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xl-4 col-lg-5 col-md-10">
+            <div class="about-widget">
+              <a class="logo" href="index.html">
+                <img src="images/logo.png" alt="" />
+              </a>
+              <div class="social">
+                <ul>
+                  <li>
+                    <a href="#" class="social-icon">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                      <i class="fab fa-pinterest-p"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="support">
+                <ul>
+                  <li>
+                    <span class="icon">
+                      <img src="images/email.png" alt="" />
+                    </span>
+                    <span class="text">
+                      <span class="title">Mail Us</span>
+                      <span class="descr">don't@reply.com</span>
+                    </span>
+                  </li>
+                  <li>
+                    <span class="icon">
+                      <img src="images/phone.png" alt="" />
+                    </span>
+                    <span class="text">
+                      <span class="title">For Enquiry</span>
+                      <span class="descr">+88 015 00 00 00</span>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-3">
+            <div class="useful-links">
+              <h3>All Sports</h3>
+              <ul>
+                <li>
+                  <a href="#">FOOTBALL</a>
+                </li>
+                <li>
+                  <a href="#">TENNIS</a>
+                </li>
+                <li>
+                  <a href="#">BASKETBALL</a>
+                </li>
+                <li>
+                  <a href="#">ICE HOCKEY</a>
+                </li>
+                <li>
+                  <a href="#">VOLLEYBALL</a>
+                </li>
+                <li>
+                  <a href="#">BADMINTON</a>
+                </li>
+                <li>
+                  <a href="#">BASEBALL</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-3">
+            <div class="useful-links">
+              <h3>Connect With Us</h3>
+              <ul>
+                <li>
+                  <a href="#">Bet</a>
+                </li>
+                <li>
+                  <a href="#">Ranking</a>
+                </li>
+                <li>
+                  <a href="#">Betting Websites</a>
+                </li>
+                <li>
+                  <a href="#">Refer a friend</a>
+                </li>
+
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+                <li>
+                  <a href="#">News</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-3">
+            <div class="useful-links">
+              <h3>Useful links</h3>
+              <ul>
+                <li>
+                  <a href="#">Privacy policy</a>
+                </li>
+                <li>
+                  <a href="#">Terms & conditions</a>
+                </li>
+                <li>
+                  <a href="#">Rules</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-footer">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xl-12 text-center">
+            <p class="copyright-text">
+              <a href="#">Sportprize</a> © 2023. All right reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      function updateTimer() {
+        const targetDate = new Date(
+          document.querySelector(".part-timer").getAttribute("data-date")
+        );
+        const now = new Date();
+        const timeRemaining = targetDate - now;
+
+        if (timeRemaining <= 0) {
+          // Countdown is over, stop the timer
+          clearInterval(timerInterval);
+          document.querySelector(".number.day").textContent = "0";
+          document.querySelector(".number.hour").textContent = "0";
+          document.querySelector(".number.minute").textContent = "0";
+          document.querySelector(".number.second").textContent = "0";
+        } else {
+          const seconds = Math.floor(timeRemaining / 1000);
+          const minutes = Math.floor(seconds / 60);
+          const hours = Math.floor(minutes / 60);
+          const days = Math.floor(hours / 24);
+
+          document.querySelector(".number.day").textContent = days;
+          document.querySelector(".number.hour").textContent = hours % 24;
+          document.querySelector(".number.minute").textContent = minutes % 60;
+          document.querySelector(".number.second").textContent = seconds % 60;
+        }
+      }
+
+      // Update the timer every second
+      const timerInterval = setInterval(updateTimer, 1000);
+
+      // Initial update to set the correct countdown values immediately
+      updateTimer();
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        $(".place-bet").click(function () {
+          $(".bet-modal-bg").toggleClass("show");
+        });
+        $(".cls-btn").click(function () {
+          $(".bet-modal-bg").toggleClass("show");
+        });
+      });
+    </script>
+    <!-- <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const minusButton = document.querySelector(".minus-number");
+        const plusButton = document.querySelector(".plus-number");
+        const numberDisplay = document.querySelector(".altv-2");
+        const inputField = document.querySelector(".number-of-stake");
+
+        // Initialize the value
+        let currentValue = parseInt(numberDisplay.textContent);
+
+        // Function to update the display and input value
+        function updateValue(newValue) {
+          numberDisplay.textContent = newValue;
+          inputField.value = newValue;
+          currentValue = newValue;
+        }
+
+        // Decrease button click event
+        minusButton.addEventListener("click", () => {
+          if (currentValue > 1) {
+            updateValue(currentValue - 1);
+          }
+        });
+
+        // Increase button click event
+        plusButton.addEventListener("click", () => {
+          if (currentValue < 99) {
+            updateValue(currentValue + 1);
+          }
+        });
+
+        // Input field change event (for manual input)
+        inputField.addEventListener("change", () => {
+          const inputValue = parseInt(inputField.value);
+          if (!isNaN(inputValue) && inputValue >= 1 && inputValue <= 99) {
+            updateValue(inputValue);
+          } else {
+            inputField.value = currentValue;
+          }
+        });
+      });
+    </script> -->
+  </body>
+</html>
